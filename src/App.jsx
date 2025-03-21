@@ -1,9 +1,9 @@
+import { useState } from "react";
 import AddTask from "./components/AddTask";
 import Tasks from "./components/Tasks";
-import { useState } from "react";
 
 function App() {
-  const { tasks, setTasks } = useState([
+  const [tasks, setTasks] = useState([
     {
       id: 1,
       title: "Estudar programação",
@@ -31,7 +31,7 @@ function App() {
           Lista de Tarefas
         </h1>
         <AddTask />
-        <Tasks />
+        <Tasks tasks={tasks} />
       </div>
     </div>
   );

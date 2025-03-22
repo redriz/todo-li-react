@@ -23,6 +23,9 @@ function AddTask({ onAddTaskSubmit }) {
       ></input>
       <button
         onClick={() => {
+          if (!title.trim()) {
+            return alert("Preencha pelo menos o título da tarefa.");
+          }
           onAddTaskSubmit(title, description);
           setTitle("");
           setDescription("");

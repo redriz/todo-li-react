@@ -14,7 +14,7 @@ Este é um projeto de uma lista de tarefas (Todo List) desenvolvido em React.
 - React
 - JavaScript
 - HTML
-- CSS
+- TailwindCSS
 
 ## Como Executar o Projeto
 

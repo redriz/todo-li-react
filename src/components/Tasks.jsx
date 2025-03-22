@@ -2,7 +2,7 @@ import { ChevronRightIcon, Trash } from "lucide-react";
 
 function Tasks({ tasks, onTaskClick, onDeleteTaskClick }) {
   return (
-    <ul className="space-y-4 p-6 bg-slate-200 rounded-md shadow mb-4">
+    <ul className="space-y-4 p-6 bg-slate-200 rounded-md shadow">
       <h2 className="text-slate-700 font-bold text-xl">Tarefas</h2>
       {tasks.map((task) => (
         <li key={task.id} className="flex gap-2">

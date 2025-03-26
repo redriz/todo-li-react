@@ -1,4 +1,4 @@
-import { ChevronLeftIcon } from "lucide-react";
+import { ChevronLeftIcon, Instagram, Github } from "lucide-react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 
 function TaskPage() {
@@ -24,6 +24,21 @@ function TaskPage() {
           <h2 className="text-slate-700 font-bold text-xl">{title}</h2>
           <p className="text-slate-700">{description}</p>
         </div>
+        <footer className="flex justify-between items-center text-slate-300 font-medium text-sm">
+          <p>&copy;2025 Adonai Rodriguez</p>
+          <ul className="flex space-x-1">
+            <li className="hover:text-slate-600">
+              <a href="https://github.com/redriz" target="_blank">
+                <Github className="h-5" />
+              </a>
+            </li>
+            <li className="hover:text-slate-600">
+              <a href="https://www.instagram.com/redrizito/" target="_blank">
+                <Instagram className="h-5" />
+              </a>
+            </li>
+          </ul>
+        </footer>
       </div>
     </div>
   );

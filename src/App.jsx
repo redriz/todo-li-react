@@ -51,7 +51,7 @@ function App() {
           onTaskClick={onTaskClick}
           onDeleteTaskClick={onDeleteTaskClick}
         />
-        <div className="flex justify-between items-center text-slate-300 font-medium text-sm">
+        <footer className="flex justify-between items-center text-slate-300 font-medium text-sm">
           <p>&copy;2025 Adonai Rodriguez</p>
           <ul className="flex space-x-1">
             <li className="hover:text-slate-600">
@@ -65,7 +65,7 @@ function App() {
               </a>
             </li>
           </ul>
-        </div>
+        </footer>
       </div>
     </div>
   );

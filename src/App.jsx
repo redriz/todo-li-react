@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import AddTask from "./components/AddTask";
 import Tasks from "./components/Tasks";
 import { v4 as uuidv4 } from "uuid";
+import { Github, Instagram } from "lucide-react";
 
 function App() {
   const [tasks, setTasks] = useState(
@@ -50,6 +51,21 @@ function App() {
           onTaskClick={onTaskClick}
           onDeleteTaskClick={onDeleteTaskClick}
         />
+        <div className="flex justify-between items-center text-slate-300 font-medium text-sm">
+          <p>&copy;2025 Adonai Rodriguez</p>
+          <ul className="flex space-x-1">
+            <li className="hover:text-slate-600">
+              <a href="https://github.com/redriz" target="_blank">
+                <Github className="h-5" />
+              </a>
+            </li>
+            <li className="hover:text-slate-600">
+              <a href="https://www.instagram.com/redrizito/" target="_blank">
+                <Instagram className="h-5" />
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );

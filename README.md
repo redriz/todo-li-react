@@ -20,7 +20,7 @@ Este é um projeto de uma lista de tarefas (Todo List) desenvolvido em React.
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/todo-li-react.git
+   git clone https://github.com/redriz/todo-li-react.git
    ```
 2. Navegue até o diretório do projeto:
    ```bash
